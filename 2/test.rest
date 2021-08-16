@@ -1,0 +1,703 @@
+GET https://api-stores.storeino.com/api/themes/search
+Content-Type: application/json
+x-auth-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYwMGU5MzhkMmQ4MjlmMGM1YWVlMWVlNiIsImZpcnN0bmFtZSI6ImFsbGFhIiwibGFzdG5hbWUiOiJoYW16YSIsInBvc2l0aW9uIjoiQ0xJRU5UIn0sImNvbXBhbnkiOnsiX2lkIjoiNjAwZTkzOGQyZDgyOWYwYzVhZWUxZWU0IiwibmFtZSI6ImVjb21taXJjZSIsInN0YXR1cyI6IlVOQ09NUExFVEVEIn0sInN0b3JlIjp7Il9pZCI6IjYwMGU5M2VlMmQ4MjlmMGM1YWVlMWVlYSIsIm5hbWUiOiJnbG9wIiwic3ViZG9tYWluIjoiZ2xvcC5zdG9yZWluby5jb20ifSwiaWF0IjoxNjIwMjk5MzkxLCJleHAiOjE2NTE4MzUzOTF9.G1HSVtaVyhZ1mbC8JtWg_HL6goPIjcVWRvdROQxAE-s
+
+
+
+
+
+
+
+
+
+// prod me
+###
+GET https://api-stores.storeino.com/api/themes/search
+Content-Type: application/json
+x-auth-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYwMGU5MzhkMmQ4MjlmMGM1YWVlMWVlNiIsImZpcnN0bmFtZSI6ImFsbGFhIiwibGFzdG5hbWUiOiJoYW16YSIsInBvc2l0aW9uIjoiQ0xJRU5UIn0sImNvbXBhbnkiOnsiX2lkIjoiNjAwZTkzOGQyZDgyOWYwYzVhZWUxZWU0IiwibmFtZSI6ImVjb21taXJjZSIsInN0YXR1cyI6IlVOQ09NUExFVEVEIn0sInN0b3JlIjp7Il9pZCI6IjYwMGU5M2VlMmQ4MjlmMGM1YWVlMWVlYSIsIm5hbWUiOiJnbG9wIiwic3ViZG9tYWluIjoiZ2xvcC5zdG9yZWluby5jb20ifSwiaWF0IjoxNjIwMjk5MzkxLCJleHAiOjE2NTE4MzUzOTF9.G1HSVtaVyhZ1mbC8JtWg_HL6goPIjcVWRvdROQxAE-s
+
+//dev hicham
+###
+GET https://api-stores.storeino.world/api/themes/search
+Content-Type: application/json
+x-auth-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYwMTNkOTYwMzhhOWU3MDEwYWI5MWQ2NyIsImZpcnN0bmFtZSI6ImhpY2hhbSIsImxhc3RuYW1lIjoiZG91Y2giLCJwb3NpdGlvbiI6IkFETUlOIiwiZW1haWwiOiJrYWthcm90bzE0LmhkQGdtYWlsLmNvbSIsImFkZHJlc3MiOm51bGx9LCJjb21wYW55Ijp7Il9pZCI6IjYwMTNkOTYwMzhhOWU3MDEwYWI5MWQ2NSIsIm5hbWUiOiJibG9ja2NoYWluZSIsInN0YXR1cyI6IlVOQ09NUExFVEVEIn0sInN0b3JlIjp7Il9pZCI6IjYwMTNkOTZlMzhhOWU3MDEwYWI5MWQ2YiIsIm5hbWUiOiJoYWlreXV1Iiwic3ViZG9tYWluIjoiaGFpa3l1dS5zdG9yZWluby53b3JsZCJ9LCJpYXQiOjE2Mjc5OTAwMzAsImV4cCI6MTY1OTUyNjAzMH0.osqwQZEtjpoCJDai1pBiwjH1f65DzZuODkSGkGgfQCg
+
+
+###
+POST  https://api-stores.storeino.com/api/themes/update?id=6099260c157bd30aabbee025
+Content-Type: application/json
+x-auth-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYwMGU5MzhkMmQ4MjlmMGM1YWVlMWVlNiIsImZpcnN0bmFtZSI6ImFsbGFhIiwibGFzdG5hbWUiOiJoYW16YSIsInBvc2l0aW9uIjoiQ0xJRU5UIn0sImNvbXBhbnkiOnsiX2lkIjoiNjAwZTkzOGQyZDgyOWYwYzVhZWUxZWU0IiwibmFtZSI6ImVjb21taXJjZSIsInN0YXR1cyI6IlVOQ09NUExFVEVEIn0sInN0b3JlIjp7Il9pZCI6IjYwMGU5M2VlMmQ4MjlmMGM1YWVlMWVlYSIsIm5hbWUiOiJnbG9wIiwic3ViZG9tYWluIjoiZ2xvcC5zdG9yZWluby5jb20ifSwiaWF0IjoxNjIwMjk5MzkxLCJleHAiOjE2NTE4MzUzOTF9.G1HSVtaVyhZ1mbC8JtWg_HL6goPIjcVWRvdROQxAE-s
+
+
+{
+    "config": {
+        "schema": {
+            "fields": {
+                "products": [
+                    "name",
+                    "slug",
+                    "images",
+                    "price",
+                    "type",
+                    "quantity",
+                    "tags",
+                    "collections.name",
+                    "collections.slug",
+                    "collections.image"
+                ],
+               "collections": [
+                  "name",
+                  "slug",
+                  "image",
+                  "translates",
+                  "childrens"
+                ],
+                "images": [
+                    "src",
+                    "title"
+                ],
+                "menus": [],
+                "pages": [],
+                "brands": []
+            },
+            "ids": {
+                "collections": [
+                  "605c5dc2332374088e084171",
+                  "605da510040c3f08ea1ccc08",
+                  "605da58e040c3f08ea1ccc1b",
+                  "60d4b3427570e114439ca1cb",
+                  "60d4b3757570e114439ca1de",
+                  "60d4b39d7570e114439ca1f8",
+                  "60d4b4217570e114439ca22b",
+                  "60d4b4467570e114439ca234",
+                  "605c5dc2332374088e084171",
+                  "605da510040c3f08ea1ccc08",
+                  "605da58e040c3f08ea1ccc1b"
+                ],
+                "products": [
+                    "601bfe4ab0c60600a1abcfef",
+                    "601bfd36b0c60600a1abcfcc",
+                    "601bfd12b0c60600a1abcf2e",
+                    "601bfcf6b0c60600a1abcf25",
+                    "6019aceb6cdbc81209bddb25",
+                    "60118456856f210b5643294f",
+                    "605c6c14867b6108a813df43"
+                ],
+                "images": [
+                    "60521b3c0b86df07857eda2a",
+                    "60521cfd0b86df07857eda3f",
+                    "60521d8f0b86df07857eda43",
+                    "6086d5c3157bd30aabb929cc"
+                ],
+                "menus": [
+                    "604a36cc0d8a7f0734bc5dfb",
+                    "6093fcab157bd30aabbd27dc",
+                    "604a36cc0d8a7f0734bc5dfb"
+                ],
+                "pages": [
+                    "60b94a74c8d6550d7f79d664",
+                    "60b9492fc8d6550d7f79d637",
+                    "60b94238c8d6550d7f79d515",
+                    "60b95884c8d6550d7f79dd1f"
+                ],
+                "brands": [
+                    "609b9f43157bd30aabbf9da4",
+                    "609b9f5c157bd30aabbf9daa",
+                    "609b9f75157bd30aabbf9db3",
+                    "09b9f9a157bd30aabbf9db8"
+                ]
+            }
+        },
+        "settings": {
+            "tabs": [
+                {
+                    "name": "global",
+                    "sections": [
+                        {
+                            "name": "header_top",
+                            "icon": "select_all",
+                            "blocks": [
+                                {
+                                    "name": "Social Media",
+                                    "note": "header_top_social_media_note",
+                                    "values": [
+                                        {
+                                            "name": "facebook_link",
+                                            "note": "facebook_link_note",
+                                            "path": "header_top.social_media.content.facebook",
+                                            "placeholder": "facebook_link",
+                                            "type": "tc_input",
+                                            "value": "#fb"
+                                        },
+                                        {
+                                            "name": "twitter_link",
+                                            "note": "twitter link",
+                                            "path": "header_top.social_media.content.twitter",
+                                            "placeholder": "twitter_link",
+                                            "type": "tc_input",
+                                            "value": "#tweet"
+                                        },
+                                        {
+                                            "name": "linkedin_link",
+                                            "note": "linkedin link",
+                                            "label": "linkedin link",
+                                            "path": "header_top.social_media.content.linkedin",
+                                            "placeholder": "linkedin_link",
+                                            "type": "tc_input",
+                                            "value": "linkedin_link"
+                                        },
+                                        {
+                                            "name": "pinterest_link",
+                                            "note": "pinterest link",
+                                            "label": "pinterest link",
+                                            "path": "header_top.social_media.content.pinterest",
+                                            "placeholder": "pinterest_link",
+                                            "type": "tc_input",
+                                            "value": "pinterest_link"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Message",
+                                    "note": "message header top",
+                                    "values": [
+                                        {
+                                            "name": "message",
+                                            "note": "Free Shipping for all Order of $99",
+                                            "path": "globale_sections.header_top.message",
+                                            "type": "tc_html",
+                                            "value": "Free Shipping for all Order of $99"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Account",
+                                    "note": "",
+                                    "values": [
+                                        {
+                                            "name": "show_account",
+                                            "note": "show account",
+                                            "path": "globale_sections.header_top.show_account",
+                                            "type": "tc_checkbox",
+                                            "value": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "header",
+                            "icon": "select_all",
+                            "blocks": [
+                                {
+                                    "name": "logo",
+                                    "values": [
+                                        {
+                                            "name": "store_logo",
+                                            "note": "Must be less than 1M",
+                                            "path": "globale_sections.header.logo",
+                                            "type": "tc_image",
+                                            "value": null
+                                        },
+                                        {
+                                            "name": "logo_height",
+                                            "note": "logo height",
+                                            "path": "globale_sections.header.logo_height",
+                                            "input_type": "number",
+                                            "type": "tc_input",
+                                            "value": 60
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "menu",
+                                    "values": [
+                                        {
+                                            "name": "header_menu",
+                                            "note": "main menu",
+                                            "path": "globale_sections.header.menu",
+                                            "type": "tc_menu",
+                                            "value": "604a36cc0d8a7f0734bc5dfb"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Search",
+                                    "note": "search Product",
+                                    "values": [
+                                        {
+                                            "name": "search",
+                                            "note": "search product",
+                                            "path": "sections.globale_sections.header.search_placeholder",
+                                            "type": "tc_input",
+                                            "value": "search",
+                                            "translatable": true
+                                        },
+                                        {
+                                            "name": "show_search",
+                                            "note": "show bar search",
+                                            "placeholder": "search_placeholder",
+                                            "path": "sections.globale_sections.header.show_search",
+                                            "type": "tc_checkbox",
+                                            "value": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Icon_cart",
+                                    "note": "show icon cart",
+                                    "values": [
+                                        {
+                                            "name": "icon_cart",
+                                            "note": "show icon cart",
+                                            "path": "sections.globale_sections.header.show_icon_cart",
+                                            "type": "tc_checkbox",
+                                            "value": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Icon_wishlis",
+                                    "note": "show icon cart",
+                                    "values": [
+                                        {
+                                            "name": "icon_wishlis",
+                                            "note": "show icon wishlis",
+                                            "path": "sections.globale_sections.header.show_icon_wishlis",
+                                            "type": "tc_checkbox",
+                                            "value": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "price total",
+                                    "note": "show price",
+                                    "values": [
+                                        {
+                                            "name": "price total",
+                                            "note": "show price total",
+                                            "path": "sections.globale_sections.header.show_price_total",
+                                            "type": "tc_checkbox",
+                                            "value": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "current": {
+            "store_name": "Storeino",
+            "style": {
+                "primary_color": "#2196f3",
+                "sale_price_color": "#00994f",
+                "compare_price_color": "#00994f",
+                "secondary_primary_color": "#00994f",
+                "secondary_color": "#00994f",
+                "reviews_stars_color": "#00994f",
+                "titles_size": "32",
+                "content_size": "16",
+                "font_family": "Cairo",
+                "direction": "ltr",
+                "header_background": "#2196f3",
+                "header_color": "#ffff",
+                "footer_background": "#2196f3",
+                "footer_color": "#ffff"
+            },
+            "buttons": {
+                "add_to_cart": {
+                    "background": [
+                        "#2196f3"
+                    ],
+                    "color": "#ffffff",
+                    "text": "Add To Cart",
+                    "click_text": "Added"
+                },
+                "buy_bow": {
+                    "background": [
+                        "#80B82D"
+                    ],
+                    "color": "#ffffff",
+                    "text": "Buy Now",
+                    "click_text": "Added"
+                },
+                "view_details": {
+                    "background": [
+                        "#2196f3"
+                    ],
+                    "color": "#00ff55",
+                    "text": "View Details",
+                    "click_text": "Added"
+                },
+                "add_to_wishlist": {
+                    "background": [],
+                    "color": "#00ff55",
+                    "text": "Add To Wishlist",
+                    "click_text": "Added"
+                }
+            },
+            "mobile_menu_position": "left",
+            "sections": {
+                "blog": {
+                    "side_bar": {},
+                    "max_items": 20,
+                    "top_bar": {
+                        "sort_by": {
+                            "oldest": true,
+                            "latest": true
+                        },
+                        "sort_text": {
+                            "oldest": "Oldest",
+                            "latest": "Latest"
+                        }
+                    }
+                },
+                "shop": {
+                    "side_bar": {
+                        "colors": {
+                            "show_color": true,
+                            "show_text_color": true
+                        }
+                    },
+                    "max_items": 20,
+                    "top_bar": {
+                        "sort_by": {
+                            "low_price": true,
+                            "high_price": true,
+                            "low_rated": true,
+                            "high_rated": true,
+                            "oldest": true,
+                            "latest": true,
+                            "best_selling": false
+                        },
+                        "sort_text": {
+                            "low_price": "Low Price",
+                            "high_price": "High Price",
+                            "low_rated": "Low Rated",
+                            "high_rated": "High Rated",
+                            "oldest": "Oldest",
+                            "latest": "Latest",
+                            "best_selling": "Best Selling"
+                        }
+                    }
+                },
+                "header_top": {
+                    "message": "Free Shipping for all Order of $99",
+                    "social_media": {
+                        "content": {
+                            "facebook": "#fb",
+                            "instagram": "#instagram",
+                            "twitter": "#twitter",
+                            "pinterest": "#pinterest"
+                        }
+                    },
+                    "show_social_media": true,
+                    "show_message": true,
+                    "show_account": true
+                },
+                "header": {
+                    "logo": null,
+                    "show_search": true,
+                    "show_wishlist_icon": true,
+                    "logo_height": 60,
+                    "logo_position": "left",
+                    "menu": "604a36cc0d8a7f0734bc5dfb",
+                    "show_cart_icon": true,
+                    "show_cart_price": true
+                },
+               "collections_carousel": {
+                  "size": "small",
+                  "collections": [
+                    "60d4b3427570e114439ca1cb",
+                    "60d4b3757570e114439ca1de",
+                    "60d4b39d7570e114439ca1f8",
+                    "60d4b4217570e114439ca22b",
+                    "60d4b4467570e114439ca234"
+                  ],
+                 "title": "",
+                 "show_image":true,
+                 "show_button":true,
+                 "size_col":"3:2"
+              },
+                "featured_products": {
+                    "title": "Featured products",
+                    "size": "small",
+                    "max": "2",
+                    "collections": [],
+                    "type": "selected",
+                    "items": [
+                        "601bfe4ab0c60600a1abcfef",
+                        "601bfd36b0c60600a1abcfcc",
+                        "601bfd12b0c60600a1abcf2e",
+                        "601bfcf6b0c60600a1abcf25",
+                        "6019aceb6cdbc81209bddb25",
+                        "60118456856f210b5643294f",
+                        "605c6c14867b6108a813df43"
+                    ],
+                    "desktop_size": "small",
+                    "mobile_size": "small",
+                    "show_quantity": true,
+                    "show_buy_now": true,
+                    "show_add_to_cart": true,
+                    "show_animation_cart": true
+                },
+                "images_grid": {
+                    "content": "images",
+                    "desktop_cols": 3,
+                    "desktop_width": 360,
+                    "desktop_height": 360,
+                    "mobile_cols": 3,
+                    "mobile_width": 240,
+                    "mobile_height": 240,
+                    "items": []
+                },
+                "slider": {
+                    "fullScreen": true,
+                    "show_pagenation": true,
+                    "autoPlay": true,
+                    "show_nextprev": true,
+                    "desktop_height": 500,
+                    "tablet_height": 400,
+                    "mobile_height": 300,
+                    "slide_click": {
+                        "click": false,
+                        "link": "/shop"
+                    },
+                    "text_color": "#0F0F0F",
+                    "items": {
+                        "item_1": {
+                            "title": "NEWSLETTER SUBSCRIPTION",
+                            "description": "Take 20% off ‘Sale Must-Haves'",
+                            "button": {
+                                "button_text": "Shop Now",
+                                "color": "#ffffff",
+                                "background": [
+                                    "#111111"
+                                ],
+                                "type": "border",
+                                "link": "/",
+                                "show_button": true
+                            },
+                            "image": "https://cdn.shopify.com/s/files/1/0332/6420/5963/files/slider11_2bfeeb77-be99-4c7c-8354-a628a9d424d5_1512x.jpg?v=1585640322",
+                            "show_title": true,
+                            "show_description": true,
+                            "content_position": "left"
+                        },
+                        "item_2": {
+                            "title": "NEWSLETTER SUBSCRIPTION",
+                            "description": "Take 20% off ‘Sale Must-Haves'",
+                            "button_text": "Shop New",
+                            "button": {
+                                "button_text": "Shop Now",
+                                "color": "#ffffff",
+                                "background": ["#111111"],
+                                "type": "border",
+                                "link": "/",
+                                "show_button": true
+                            },
+                            "image": "https://cdn.shopify.com/s/files/1/0332/6420/5963/files/slider13_49090674-d1ef-4c34-95b9-19c1edac4d15_1512x.jpg?v=1585640180",
+                            "show_title": true,
+                            "show_description": true,
+                            "content_position": "center"
+                        },
+                        "item_3": {
+                            "title": "NEWSLETTER SUBSCRIPTION",
+                            "description": "Take 20% off ‘Sale Must-Haves'",
+                            "button_text": "Shop New",
+                            "button": {
+                                "button_text": "Shop Now",
+                                "color": "#ffffff",
+                                "background": ["#111111"],
+                                "type": "border",
+                                "link": "/",
+                                "show_button": true
+                            },
+                            "image": "https://cdn.shopify.com/s/files/1/0332/6420/5963/files/slideshow_image_1_2x_4a16e4d3-8565-4334-8b06-e863c3cde2fc_1512x.jpg?v=1582126483",
+                            "show_title": true,
+                            "show_description": true,
+                            "content_position": "right"
+                        }
+                    }
+                },
+                "home_blog": {
+                    "title": "Blog posts",
+                    "max": 9,
+                    "style": "medium",
+                    "show_description": true,
+                    "show_date": true,
+                    "show_comments_number": true,
+                    "items": [
+                        "60b94a74c8d6550d7f79d664",
+                        "60b9492fc8d6550d7f79d637",
+                        "60b94238c8d6550d7f79d515",
+                        "60b95884c8d6550d7f79dd1f"
+                    ],
+                    "type": "last"
+                },
+                "brands": {
+                    "type": "all",
+                    "items": [
+                        {
+                            "_id": "609b9f43157bd30aabbf9da4",
+                            "name": "test1",
+                            "slug": "test1",
+                            "imageSrc": "https://storeno.b-cdn.net/stores/6-2021/1622646270258.webp",
+                            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                            "storeId": "600e93ee2d829f0c5aee1eea",
+                            "__v": 0
+                        },
+                        {
+                            "_id": "609b9f5c157bd30aabbf9daa",
+                            "name": "test2",
+                            "slug": "test2",
+                            "imageSrc": "https://storeno.b-cdn.net/stores/6-2021/1622646248153.webp",
+                            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                            "storeId": "600e93ee2d829f0c5aee1eea",
+                            "__v": 0
+                        },
+                        {
+                            "_id": "609b9f75157bd30aabbf9db3",
+                            "name": "test3",
+                            "slug": "test3",
+                            "imageSrc": "https://storeno.b-cdn.net/stores/6-2021/1622646227662.webp",
+                            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                            "storeId": "600e93ee2d829f0c5aee1eea",
+                            "__v": 0
+                        },
+                        {
+                            "_id": "609b9f9a157bd30aabbf9db8",
+                            "name": "test4",
+                            "slug": "test4",
+                            "imageSrc": "https://storeno.b-cdn.net/stores/6-2021/1622646209501.webp",
+                            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                            "storeId": "600e93ee2d829f0c5aee1eea",
+                            "__v": 0
+                        }
+                    ],
+                    "show_name": false,
+                    "style": "small",
+                    "title": "Brands"
+                },
+                "footer": {
+                    "about": {
+                        "title": "About us",
+                        "show_about": true,
+                        "size": "1/3",
+                        "content": {
+                            "logo": "https://storeno.b-cdn.net/stores/3-2021/1617016802422.png",
+                            "text": "Storeino est le résultat de plusieurs années d'expérience dans la création des sites web et des boutiques en ligne au Maroc. Nous sommes basés à Agadir, nous sommes joignables via le formulaire de contact de notre site et nous nous empresserons de répondre sous 24h."
+                        }
+                    },
+                    "menu": {
+                        "title": "Menu",
+                        "size": "1/4",
+                        "item": "6093fcab157bd30aabbd27dc",
+                        "show_second_menu": true
+                    },
+                    "second_menu": {
+                        "title": "Menu",
+                        "size": "1/4",
+                        "item": "6093fcab157bd30aabbd27dc",
+                        "show_second_menu": true
+                    },
+                    "social_media": {
+                        "title": "Follow Us",
+                        "show_social_media": true,
+                        "size": "1/4",
+                        "content": {
+                            "facebook": "#fb",
+                            "instagram": "#instagram",
+                            "twitter": "#twitter",
+                            "pinterest": "#pinterest"
+                        }
+                    },
+                    "contact": {
+                        "title": "Contact us",
+                        "show_contact": true,
+                        "size": "1/4",
+                        "location": "agadir",
+                        "phone": "0655555555",
+                        "email": "storeino@gmail.com"
+                    },
+                    "payment_methods": {
+                        "title": "Payment Methods",
+                        "size": "1/3",
+                        "cash_on_delivery": {
+                            "show_cash_on_delivery": true,
+                            "src": "https://storeino.b-cdn.net/assets/others/banktransfer.png"
+                        },
+                        "payPal": {
+                            "show_payPal": true,
+                            "src": "https://storeino.b-cdn.net/assets/others/paypal.png"
+                        },
+                        "cash_cashPlus": {
+                            "show_cash_cashPlus": true,
+                            "src": "https://storeno.b-cdn.net/stores/6-2021/1623317244191.png"
+                        },
+                        "cash_tashilat": {
+                            "show_cash_tashilat": true,
+                            "src": "https://storeino.b-cdn.net/assets/others/tashilat.png"
+                        },
+                        "cash_amanty": {
+                            "show_cash_amanty": true,
+                            "src": "https://storeno.b-cdn.net/stores/6-2021/1623317136116.png"
+                        },
+                        "cash_visa_mastercard": {
+                            "show_cash_visa_mastercard": true,
+                            "src": "https://storeino.b-cdn.net/assets/others/visa-and-mastercard.png"
+                        }
+                    },
+                    "copy_right": {
+                        "text": "Copyright ©__YEAR__ All rights reserved"
+                    }
+                },
+                "cart": {
+                    "show_upsell": true,
+                    "show_total_text": true,
+                    "show_btn_continue_shopping": true,
+                    "text_total": "Total",
+                    "message_upselling": "Upselling",
+                    "text_btn_continue_checkout": "CONTINUE SHOPPING",
+                    "text_btn_proceed_checkout": "PROCEED TO CHECKOUT",
+                    "empty_cart": "Your cart is empty",
+                    "link_btn_continue_shopping": "/shop",
+                    "link_empty_cart": "/shop"
+                }
+            }
+        }
+    }
+}
+
+###
+get  https://api-stores.storeino.com/api/settings/current
+Content-Type: application/json
+x-auth-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYwMGU5MzhkMmQ4MjlmMGM1YWVlMWVlNiIsImZpcnN0bmFtZSI6ImFsbGFhIiwibGFzdG5hbWUiOiJoYW16YSIsInBvc2l0aW9uIjoiQ0xJRU5UIn0sImNvbXBhbnkiOnsiX2lkIjoiNjAwZTkzOGQyZDgyOWYwYzVhZWUxZWU0IiwibmFtZSI6ImVjb21taXJjZSIsInN0YXR1cyI6IlVOQ09NUExFVEVEIn0sInN0b3JlIjp7Il9pZCI6IjYwMGU5M2VlMmQ4MjlmMGM1YWVlMWVlYSIsIm5hbWUiOiJnbG9wIiwic3ViZG9tYWluIjoiZ2xvcC5zdG9yZWluby5jb20ifSwiaWF0IjoxNjIwMjk5MzkxLCJleHAiOjE2NTE4MzUzOTF9.G1HSVtaVyhZ1mbC8JtWg_HL6goPIjcVWRvdROQxAE-s
+
+
+
+
+
+//object create theme
+###
+  {
+       "images": ["https://storeino.b-cdn.net/assets/img/argan.jpeg"],
+      "team": {
+        "_id": "5f21374a175b5e8e309be827",
+        "name": "Storeino Team",
+        "url": "https://market.storeino.com/storeino/"
+      },
+      "expiryDate": "2050-12-12T00:00:00.000Z",
+      "isActive": false,
+      "autoRenew": false,
+      "name": "default",
+      "url": "/themes/default",
+      "route": "default",
+      "defaults": [],
+      "paymentType": "yearly",
+      "payments": [],
+      "price": 22,
+      "description": "✔ Simple and easy theme to use ✔ Well presented and convertible store and product page ✔ SEO optimized ✔ Responsive to all devices",
+      "publicName": "Default - Multipurpose Responsive E-commerce Template"
+    }
