@@ -1,0 +1,116 @@
+{
+  "current": {
+    "sections": {
+      "featured_products": {
+        "buttons": {
+          "text": "Show more",
+          "background": [
+            "#111111"
+          ],
+          "color": "#ffffff",
+          "font_size": 16,
+          "bold": 400,
+          "type": "border"
+        }
+      }
+    },
+    "error_sections": {
+      "error_500": {
+        "color_404": "#2196F3",
+        "title": "Opps! something  is wrong",
+        "message": "we're having an issue,please try one of these option to ge you back on track",
+        "button": {
+          "text": "GO To Back",
+          "link": "/",
+          "color": "#ffffff",
+          "background": [
+            "#111111"
+          ],
+          "type": "border"
+        }
+      }
+    }
+  },
+  "settings": {
+    "tabs": [
+      {
+        "name": "Errors",
+        "sections": [
+          {
+            "name": "error_500",
+            "icon": "select_all",
+            "blocks": [
+              {
+                "name": "error_500",
+                "note": "",
+                "values": [
+                  {
+                    "name": "title",
+                    "path": "error_sections.error_500.title",
+                    "type": "tc_input",
+                    "input_type": "text",
+                    "value": "something  is wrong"
+                  },
+                  {
+                    "name": "text",
+                    "path": "error_sections.error_500.message",
+                    "type": "tc_input",
+                    "input_type": "text",
+                    "value": "we're having an issue,please try one of these option to ge you back on track"
+                  },
+                  {
+                    "name": "text_button",
+                    "path": "error_sections.error_500.button.text",
+                    "type": "tc_input",
+                    "input_type": "text",
+                    "value": "GO To Back"
+                  },
+                  {
+                    "name": "link_button",
+                    "path": "error_sections.error_500.button.link",
+                    "type": "tc_input",
+                    "input_type": "text",
+                    "value": "/"
+                  },
+                  {
+                    "name": "color_button",
+                    "path": "error_sections.error_500.button.color",
+                    "type": "tc_color",
+                    "input_type": "text",
+                    "value": "#ffffff"
+                  },
+                  {
+                    "name": "background_button",
+                    "path": "error_sections.error_500.button.background",
+                    "type": "tc_gradient",
+                    "input_type": "text",
+                    "value": [
+                      "#111111"
+                    ]
+                  },
+                  {
+                    "name": "button_form",
+                    "note": "button_form",
+                    "path": "error_sections.error_500.button.type",
+                    "type": "tc_select",
+                    "value": "border",
+                    "values": [
+                      {
+                        "name": "border",
+                        "value": "border"
+                      },
+                      {
+                        "name": "filled",
+                        "value": "filled"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

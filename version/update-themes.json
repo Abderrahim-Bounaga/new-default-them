@@ -1,0 +1,266 @@
+[
+  {
+    "current": {
+      "path": "sections.collections_carousel",
+      "action": "ADD",
+      "data": {
+        "buttons": {
+          "background": ["#ffffff"],
+          "color": "#111111",
+          "font_size": 16,
+          "bold": 400,
+          "type": "filled"
+        }
+      }
+    },
+    "settings": {
+      "path": "tabs[1].sections[1].blocks[0].values",
+      "action": "ADD",
+      "data": [
+        {
+          "name": "background_buttons",
+          "note": "background_buttons",
+          "path": "sections.collections_carousel.buttons.background",
+          "type": "tc_gradient",
+          "value": ["#ffffff"]
+        },
+        {
+          "name": "color_buttons",
+          "note": "background_buttons",
+          "path": "sections.collections_carousel.buttons.color",
+          "type": "tc_color",
+          "value": "#111111"
+        },
+        {
+          "name": "font_size_buttons",
+          "note": "font_size_buttons",
+          "path": "sections.collections_carousel.buttons.font_size",
+          "type": "tc_input",
+          "input_type": "Number",
+          "value": 16
+        },
+        {
+          "name": "bold",
+          "note": "bold",
+          "path": "sections.collections_carousel.buttons.bold",
+          "type": "tc_select",
+          "input_type": "Number",
+          "value": 400,
+          "values": [
+            {
+              "name": "400",
+              "value": 400
+            },
+            {
+              "name": "500",
+              "value": 500
+            },
+            {
+              "name": "600",
+              "value": 600
+            },
+            {
+              "name": "900",
+              "value": 900
+            }
+          ]
+        },
+        {
+          "name": "type_button",
+          "note": "type_button",
+          "path": "sections.collections_carousel.buttons.type",
+          "type": "tc_select",
+          "value": "filled",
+          "values": [
+            {
+              "name": "filled",
+              "value": "filled"
+            },
+            {
+              "name": "border",
+              "value": "border"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "current": {
+      "path": "buttons.add_to_cart",
+      "action": "ADD",
+      "data": {
+        "show_add_to_cart": true,
+        "show_animation_cart": true,
+        "add_to_cart_to_checkout": false
+      }
+    },
+    "settings": {
+      "path": "tabs[0].sections[3].blocks",
+      "action": "ADD",
+      "data": [
+        {
+          "path": "buttons.quantity.show_quantity",
+        }
+      ]
+    }
+  },
+  {
+    "current": {
+      "path": "buttons.buy_bow",
+      "action": "ADD",
+      "data": {
+        "show_buy_now": true
+      }
+    },
+    "settings": null
+  },
+  {
+    "current": {
+      "path": "",
+      "action": "ADD",
+      "data": {
+        "dailog_sections": {
+          "dailog_wishlist": {
+            "title": "Are you sure !",
+            "message": "if you confirm, the product will be removed from you wishlist"
+          },
+          "dailog_cart": {
+            "title": "Are you sure !",
+            "message": "if you confirm, the product will be removed from you cart"
+          },
+          "buttons": {
+            "confirm": {
+              "text": "confirm",
+              "color": "#ffffff",
+              "background": ["#2196F3"],
+              "type": "border"
+            },
+            "close": {
+              "text": "close",
+              "color": "#ffffff",
+              "background": ["#2196F3"],
+              "type": "filled"
+            }
+          }
+        }
+      }
+    },
+    "settings": null
+  },
+  {
+    "current": {
+      "path": "buttons",
+      "action": "ADD",
+      "data": {
+        "quantity": {
+          "show_quantity": true,
+          "quantity_writable": true
+        },
+        "wishlist": {
+          "show_wishlist": true
+        }
+      }
+    },
+    "settings": null
+  },
+  {
+    "current": {
+      "path": "sections.featured_products",
+      "action": "ADD",
+      "data": {
+        "buttons": {
+          "text": "Show more",
+          "background": ["#ffffff"],
+          "color": "#111111",
+          "font_size": 16,
+          "bold": 400,
+          "type": "filled"
+        }
+      }
+    },
+    "settings": {
+      "path": "tabs[1].sections[2].blocks",
+      "action": "ADD",
+      "data": [
+        {
+          "name": "buttons",
+          "values": [
+            {
+              "name": "text_buttons",
+              "note": "text_buttons",
+              "path": "sections.featured_products.buttons.text",
+              "type": "tc_input",
+              "value": "Show more"
+            },
+            {
+              "name": "background_buttons",
+              "note": "background_buttons",
+              "path": "sections.featured_products.buttons.background",
+              "type": "tc_gradient",
+              "value": ["#111111"]
+            },
+            {
+              "name": "color_buttons",
+              "note": "color_buttons",
+              "path": "sections.featured_products.buttons.color",
+              "type": "tc_color",
+              "value": "#ffffff"
+            },
+            {
+              "name": "font_size_buttons",
+              "note": "font_size_buttons",
+              "path": "sections.featured_products.buttons.font_size",
+              "type": "tc_input",
+              "input_type": "Number",
+              "value": 16
+            },
+            {
+              "name": "bold",
+              "note": "bold",
+              "path": "sections.featured_products.buttons.bold",
+              "type": "tc_select",
+              "input_type": "Number",
+              "value": 400,
+              "values": [
+                {
+                  "name": "400",
+                  "value": 400
+                },
+                {
+                  "name": "500",
+                  "value": 500
+                },
+                {
+                  "name": "600",
+                  "value": 600
+                },
+                {
+                  "name": "900",
+                  "value": 900
+                }
+              ]
+            },
+            {
+              "name": "type_button",
+              "note": "type_button",
+              "path": "sections.featured_products.buttons.type",
+              "type": "tc_select",
+              "value": "border",
+              "values": [
+                {
+                  "name": "filled",
+                  "value": "filled"
+                },
+                {
+                  "name": "border",
+                  "value": "border"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

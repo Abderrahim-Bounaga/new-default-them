@@ -1,0 +1,64 @@
+POST  https://api-stores.storeino.world/api/themes/update?id=5f19ae7149d54b6437d511e7
+Content-Type: application/json
+x-auth-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdG9yZSI6eyJfaWQiOiI2MTE1NGM2N2FjZmNiYjAwMzY1M2YyNGYifSwiaWF0IjoxNjI4ODEwMDgyLCJleHAiOjE2NjAzNDYwODJ9.PdVun9_A13JYtroYUkUXufAK8lUzYUaRxgLcT3ykHaw
+
+
+  {
+         "config": {
+        "schema": {
+            "fields": {
+                "products": [
+                    "name",
+                    "slug",
+                    "images",
+                    "price",
+                    "type",
+                    "quantity",
+                    "tags",
+                    "collections.name",
+                    "collections.slug",
+                    "collections.image"
+                ],
+                "collections": [
+                    "name",
+                    "slug",
+                    "image",
+                    "translates",
+                    "childrens"
+                ],
+                "images": [
+                    "src",
+                    "title"
+                ],
+                "menus": [],
+                "pages": [],
+                "brands": []
+            },
+            "ids": {
+                "collections": [
+                ],
+                "products": [
+
+                ],
+                "images": [
+
+                ],
+                "menus": [
+                ],
+                "pages": [
+                ],
+                "brands": [
+                ]
+            }
+        },
+        "settings": {
+
+        },
+        "current": {
+            
+        }
+    }
+
+  }
+
+

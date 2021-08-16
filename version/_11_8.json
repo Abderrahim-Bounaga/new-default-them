@@ -1,0 +1,136 @@
+{
+  "current": {
+    "sections": {
+      "featured_products": {
+        "buttons": {
+          "text": "Show more",
+          "background": [
+            "#111111"
+          ],
+          "color": "#ffffff",
+          "font_size": 16,
+          "bold": 400,
+          "type": "border"
+        }
+      }
+    }
+  },
+  "settings": {
+    "tabs": [
+      {
+        "name": "home",
+        "page": "HOME",
+        "sections": [
+          {
+            "name": "featured_products",
+            "icon": "select_all",
+            "blocks": [
+              {
+                "name": "buttons",
+                "values": [
+                  {
+                    "name": "text_buttons",
+                    "note": "text_buttons",
+                    "path": "sections.featured_products.buttons.text",
+                    "type": "tc_input",
+                    "value": "Show more"
+                  },
+                  {
+                    "name": "background_buttons",
+                    "note": "background_buttons",
+                    "path": "sections.featured_products.buttons.background",
+                    "type": "tc_gradient",
+                    "value": [
+                      "#111111"
+                    ]
+                  },
+                  {
+                    "name": "color_buttons",
+                    "note": "color_buttons",
+                    "path": "sections.featured_products.buttons.color",
+                    "type": "tc_color",
+                    "value": "#ffffff"
+                  },
+                  {
+                    "name": "font_size_buttons",
+                    "note": "font_size_buttons",
+                    "path": "sections.featured_products.buttons.font_size",
+                    "type": "tc_input",
+                    "input_type": "Number",
+                    "value": 16
+                  },
+                  {
+                    "name": "bold",
+                    "note": "bold",
+                    "path": "sections.featured_products.buttons.bold",
+                    "type": "tc_select",
+                    "input_type": "Number",
+                    "value": 400,
+                    "values": [
+                      {
+                        "name": "400",
+                        "value": 400
+                      },
+                      {
+                        "name": "500",
+                        "value": 500
+                      },
+                      {
+                        "name": "600",
+                        "value": 600
+                      },
+                      {
+                        "name": "900",
+                        "value": 900
+                      }
+                    ]
+                  },
+                  {
+                    "name": "type_button",
+                    "note": "type_button",
+                    "path": "sections.featured_products.buttons.type",
+                    "type": "tc_select",
+                    "value": "border",
+                    "values": [
+                      {
+                        "name": "filled",
+                        "value": "filled"
+                      },
+                      {
+                        "name": "border",
+                        "value": "border"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "shop",
+        "page": "SHOP",
+        "sections": [
+          {
+            "name": "side_bar_shop",
+            "icon": "select_all",
+            "blocks": [
+              {
+                "name": "enabled_disabled",
+                "values": [
+                  {
+                    "name": "show_blog",
+                    "path": "shop_sections.side_bar.blog.show_blog",
+                    "type": "tc_checkbox",
+                    "value": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

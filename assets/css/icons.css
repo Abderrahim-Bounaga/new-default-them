@@ -1,0 +1,66 @@
+.icon {
+    background-image: url('./../image/icons.png');
+    background-repeat: no-repeat;
+    background-size: 16em 16em;
+    width: 2em;
+    height: 2em;
+    float: left;
+}
+.icon-acount{
+    background-position: 0em 0em;;
+}
+.icon-filter{
+    background-position: -8em -2em;;
+}
+.icon-wishlist_vide{
+    background-position: -2em 0em;
+}
+.icon-wishlist_filled{
+    background-position: -14em -4em;
+}
+
+.icon-search{
+    background-position: -6em 0em;
+}
+.icon-currency{
+    background-position: 0em -2em;
+}
+.icon-cart{
+    background-position: -4em 0em;
+}
+.icon-menu{
+    background-position: -12em 0em;
+}
+.icon-chemistry{
+    background-position: -1em -2em;
+}
+.icon-clock{
+    background-position: -2em -2em;
+}
+.icon-next{
+    background-position: 0em -6em;
+}
+.icon-facebook{
+    background-position: 0em -4em;
+}
+.icon-twitter{
+    background-position: -4em -4em;
+}
+.icon-instagram{
+    background-position: -12em -4em;
+}
+.icon-pinterest{
+    background-position: -6em -4em;
+}
+.icon-youtube{
+    background-position: -2em -4em;
+}
+.icon-linkedin{
+    background-position: -8em -4em;
+}
+.icon-Whatsapp{
+    background-position: -10em -4em;
+}
+.icon-email{
+    background-position: -2em -2em;
+}

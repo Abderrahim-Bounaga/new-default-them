@@ -1,0 +1,164 @@
+{
+  "current": {
+    "dailog_sections": {
+      "dailog_wishlist": {
+        "title": "Are you sure !",
+        "message": "if you confirm, the product will be removed from you wishlist"
+      },
+      "dailog_cart": {
+        "title": "Are you sure !",
+        "message": "if you confirm, the product will be removed from you cart"
+      },
+      "buttons": {
+        "confirm": {
+          "text": "confirm",
+          "color": "#ffffff",
+          "background": [
+            "#2196F3"
+          ],
+          "type": "border"
+        },
+        "close": {
+          "text": "close",
+          "color": "#ffffff",
+          "background": [
+            "#2196F3"
+          ],
+          "type": "filled"
+        }
+      }
+    }
+  },
+  "settings": {
+    "tabs": [
+      {
+        "name": "global",
+        "page": "HOME",
+        "sections": [
+          {
+            "name": "dailog",
+            "icon": "select_all",
+            "blocks": [
+              {
+                "name": "dailog_wishlist",
+                "values": [
+                  {
+                    "name": "title",
+                    "path": "dailog_sections.dailog_wishlist.title",
+                    "type": "tc_input",
+                    "value": "Are you sure !"
+                  },
+                  {
+                    "name": "message",
+                    "path": "dailog_sections.dailog_wishlist.message",
+                    "type": "tc_input",
+                    "value": "Are you sure !"
+                  }
+                ]
+              },
+              {
+                "name": "dailog_cart",
+                "values": [
+                  {
+                    "name": "title",
+                    "path": "dailog_sections.dailog_cart.title",
+                    "type": "tc_input",
+                    "value": "Are you sure !"
+                  },
+                  {
+                    "name": "message",
+                    "path": "dailog_sections.dailog_cart.message",
+                    "type": "tc_input",
+                    "value": "Are you sure !"
+                  }
+                ]
+              },
+              {
+                "name": "buttons_confirm",
+                "values": [
+                  {
+                    "name": "text",
+                    "path": "dailog_sections.buttons.confirm.text",
+                    "type": "tc_input",
+                    "value": "confirm"
+                  },
+                  {
+                    "name": "color",
+                    "path": "dailog_sections.buttons.confirm.color",
+                    "type": "tc_color",
+                    "value": "#ffffff"
+                  },
+                  {
+                    "name": "background",
+                    "path": "dailog_sections.buttons.confirm.background",
+                    "type": "tc_gradient",
+                    "value": [
+                      "#2196F3"
+                    ]
+                  },
+                  {
+                    "name": "type",
+                    "path": "dailog_sections.buttons.confirm.type",
+                    "type": "tc_select",
+                    "value": "border",
+                    "values": [
+                      {
+                        "name": "border",
+                        "value": "border"
+                      },
+                      {
+                        "name": "filled",
+                        "value": "filled"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "buttons_close",
+                "values": [
+                  {
+                    "name": "text",
+                    "path": "dailog_sections.buttons.close.text",
+                    "type": "tc_input",
+                    "value": "close"
+                  },
+                  {
+                    "name": "color",
+                    "path": "dailog_sections.buttons.close.color",
+                    "type": "tc_color",
+                    "value": "#ffffff"
+                  },
+                  {
+                    "name": "background",
+                    "path": "dailog_sections.buttons.close.background",
+                    "type": "tc_gradient",
+                    "value": [
+                      "#2196F3"
+                    ]
+                  },
+                  {
+                    "name": "type",
+                    "path": "dailog_sections.buttons.close.type",
+                    "type": "tc_select",
+                    "value": "border",
+                    "values": [
+                      {
+                        "name": "border",
+                        "value": "border"
+                      },
+                      {
+                        "name": "filled",
+                        "value": "filled"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

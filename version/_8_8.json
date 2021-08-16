@@ -1,0 +1,189 @@
+{
+  "current": {
+    "sections": {
+      "collections_carousel": {
+        "buttons": {
+          "background": [
+            "#ffffff"
+          ],
+          "color": "#111111",
+          "font_size": 16,
+          "bold": 400,
+          "type": "filled"
+        }
+      }
+    },
+    "buttons": {
+      "add_to_cart": {
+        "show_add_to_cart": true,
+        "show_animation_cart": true,
+        "add_to_cart_to_checkout": false
+      },
+      "buy_bow": {
+        "show_buy_now": true
+      },
+      "view_details": {
+        "quantity": {
+          "show_quantity": true,
+          "quantity_writable": true
+        },
+        "wishlist": {
+          "show_wishlist": true
+        }
+      }
+    },
+    "settings": {
+      "tabs": [
+        {
+          "name": "global",
+          "page": "HOME",
+          "sections": [
+            {
+              "name": "global_buttons",
+              "icon": "select_all",
+              "blocks": [
+                {
+                  "name": "global_buttons",
+                  "values": [
+                    {
+                      "name": "show_quantity",
+                      "note": "",
+                      "path": "buttons.quantity.show_quantity",
+                      "type": "tc_checkbox",
+                      "value": true
+                    },
+                    {
+                      "name": "quantity_writable",
+                      "note": "",
+                      "path": "buttons.quantity.quantity_writable",
+                      "type": "tc_checkbox",
+                      "value": true
+                    },
+                    {
+                      "name": "show_add_to_cart",
+                      "note": "",
+                      "path": "buttons.add_to_cart.show_add_to_cart",
+                      "type": "tc_checkbox",
+                      "value": true
+                    },
+                    {
+                      "name": "show_animation_cart",
+                      "note": "",
+                      "path": "buttons.add_to_cart.show_animation_cart",
+                      "type": "tc_checkbox",
+                      "value": true
+                    },
+                    {
+                      "name": "add_to_cart_to_checkout",
+                      "note": "",
+                      "path": "buttons.add_to_cart.add_to_cart_to_checkout",
+                      "type": "tc_checkbox",
+                      "value": false
+                    },
+                    {
+                      "name": "show_buy_now",
+                      "note": "",
+                      "path": "buttons.buy_bow.show_buy_now",
+                      "type": "tc_checkbox",
+                      "value": true
+                    },
+                    {
+                      "name": "show_wishlist",
+                      "note": "",
+                      "path": "buttons.wishlist.show_wishlist",
+                      "type": "tc_checkbox",
+                      "value": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "home",
+          "page": "HOME",
+          "sections": [
+            {
+              "name": "collections_carousel",
+              "blocks": [
+                {
+                  "name": "buttons",
+                  "values": [
+                    {
+                      "name": "background_buttons",
+                      "note": "background_buttons",
+                      "path": "sections.collections_carousel.buttons.background",
+                      "type": "tc_gradient",
+                      "value": [
+                        "#ffffff"
+                      ]
+                    },
+                    {
+                      "name": "color_buttons",
+                      "note": "background_buttons",
+                      "path": "sections.collections_carousel.buttons.color",
+                      "type": "tc_color",
+                      "value": "#111111"
+                    },
+                    {
+                      "name": "font_size_buttons",
+                      "note": "font_size_buttons",
+                      "path": "sections.collections_carousel.buttons.font_size",
+                      "type": "tc_input",
+                      "input_type": "Number",
+                      "value": 16
+                    },
+                    {
+                      "name": "bold",
+                      "note": "bold",
+                      "path": "sections.collections_carousel.buttons.bold",
+                      "type": "tc_select",
+                      "input_type": "Number",
+                      "value": 400,
+                      "values": [
+                        {
+                          "name": "400",
+                          "value": 400
+                        },
+                        {
+                          "name": "500",
+                          "value": 500
+                        },
+                        {
+                          "name": "600",
+                          "value": 600
+                        },
+                        {
+                          "name": "900",
+                          "value": 900
+                        }
+                      ]
+                    },
+                    {
+                      "name": "type_button",
+                      "note": "type_button",
+                      "path": "sections.collections_carousel.buttons.type",
+                      "type": "tc_select",
+                      "value": "filled",
+                      "values": [
+                        {
+                          "name": "filled",
+                          "value": "filled"
+                        },
+                        {
+                          "name": "border",
+                          "value": "border"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
